@@ -9,8 +9,8 @@ return {
         italic_comments = true,
 
         transparent = {
-          bg = false,
-          float = false,
+          bg = true,
+          float = true,
         },
 
         reduced_blue = true,
