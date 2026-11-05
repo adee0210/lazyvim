@@ -1,5 +1,5 @@
 -- Run current Python file in LazyVim's existing Snacks terminal
-vim.keymap.set("n", "<F5>", function()
+vim.keymap.set("n", "<C-r>", function()
   -- Save current file
   vim.cmd("write")
 
