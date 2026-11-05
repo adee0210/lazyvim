@@ -5,7 +5,7 @@ return {
     priority = 1000,
     config = function()
       require("nordic").setup({
-        bold_keywords = false,
+        bold_keywords = true,
         italic_comments = true,
 
         transparent = {
@@ -18,7 +18,7 @@ return {
 
         cursorline = {
           theme = "dark",
-          bold = false,
+          bold = true,
           bold_number = true,
           blend = 0.85,
         },
